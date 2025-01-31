@@ -23,7 +23,7 @@ noBtn.addEventListener("click", function () {
     clickCount++;
   } else {
     yesBtn.style.transform = "scale(2)";
-    question.innerText = "OK, YAY! 🎉";
+    question.innerText = "OK, YAY!";
     noBtn.style.display = "none";
   }
 });
