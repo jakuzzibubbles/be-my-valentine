@@ -23,7 +23,7 @@ const noTexts = [
 
 noBtn.addEventListener("click", function () {
   if (clickCount < noTexts.length) {
-    yesBtn.style.transform = `scale(${1 + clickCount * 0.1})`;
+    yesBtn.style.transform = `scale(${1 + clickCount * 1})`;
     noBtn.innerText = noTexts[clickCount];
     noBtn.style.transform = `scale(${1 - clickCount * 0.05})`;
     buttonsContainer.style.marginTop = `${10 + clickCount * 10}px`;
