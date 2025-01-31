@@ -16,8 +16,8 @@ const noTexts = [
   "What?",
   "You'll regret it!",
   "Think again!",
-  "Seriously?",
   "Last chance!",
+  "Seriously?",
   "No",
 ];
 
