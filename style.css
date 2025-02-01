@@ -15,7 +15,7 @@ body {
 
 .container {
     text-align: center;
-    background: pink;
+    background: transparent;
     padding: 20px;
     border-radius: 10px;
 }

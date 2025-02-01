@@ -33,6 +33,8 @@ noBtn.addEventListener("click", function () {
     question.innerText = "OK, YAY!";
     noBtn.style.display = "none";
   }
+  gifImage.src =
+    "https://media.giphy.com/media/hwvL2uKsTd1cNpZd9c/giphy.gif?cid=ecf05e47aizeleq89rc7x3w0j1jke78elww3wg7mvhgq0xlu&ep=v1_gifs_search&rid=giphy.gif&ct=g";
 });
 
 yesBtn.addEventListener("click", function () {
