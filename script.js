@@ -8,9 +8,9 @@ const gifImage = document.querySelector(".kitty");
 let clickCount = 0;
 const noTexts = [
   "What?",
-  "Come on, don't be shy!",
+  "Are you sure?",
+  "Really really really sure?",
   "You are breaking my heart!",
-  "Really?",
   "Just say YES!",
   "Why not?",
   "Please, just say yes! 😭",
