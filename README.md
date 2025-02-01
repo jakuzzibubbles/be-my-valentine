@@ -4,9 +4,9 @@
 - The buttons react with animations and changes in text when clicked.
 
 ### 2. **Key Features**:
-- **Interactive Bunny GIF**: The main attraction is the bunny that pops up with a question, leading to playful user interaction.
+- **Interactive GIF**: The main attraction is the bunny that pops up with a question, leading to playful user interaction.
 - **Dynamic Button Scaling**: The buttons grow and shrink dynamically based on clicks.
-- **Funny Messages**: The **No** button cycles through multiple humorous phrases.
+- **Messages**: The **No** button cycles through multiple humorous phrases.
 - **Responsive Behavior**: The layout adjusts based on interactions, and buttons are positioned well.
 
 ### 3. **Learned**  
