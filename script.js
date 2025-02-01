@@ -38,7 +38,7 @@ noBtn.addEventListener("click", function () {
 yesBtn.addEventListener("click", function () {
     gifImage.src =
       "https://media.giphy.com/media/qFmdpUKAFZ6rMobzzu/giphy.gif?cid=ecf05e47mg5e73jkxu6ob2painy03ul3klhpub469af3gv41&ep=v1_gifs_search&rid=giphy.gif&ct=g";
-      question.innerText = "OK, Yay! 🥰 Can't wait!";
+      question.innerText = "Yay! 🥰 Can't wait!";
 
       noBtn.style.display ="none";
       yesBtn.style.margin = "0 auto";
