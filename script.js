@@ -18,7 +18,7 @@ const noTexts = [
   "Think again!",
   "Last chance!",
   "Seriously?",
-  "No",
+  "YES",
 ];
 
 noBtn.addEventListener("click", function () {
