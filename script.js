@@ -11,7 +11,7 @@ const noTexts = [
   "Come on, don't be shy!",
   "You are breaking my heart!",
   "Really?",
-  "Just say YES!",
+  "Say YES!",
   "Why not?",
   "Please, just say yes! 😭",
   "You'll regret it!",

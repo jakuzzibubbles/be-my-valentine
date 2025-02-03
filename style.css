@@ -17,7 +17,6 @@ body {
     text-align: center;
     background: transparent;
     padding: 20px;
-    border-radius: 10px;
 }
 
 .kitty {
@@ -64,4 +63,46 @@ button {
     margin-top: 15px;
     font-size: 18px;
     color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .buttons {
+        gap: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    #yes-btn,
+    #no-btn {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .kitty {
+        width: 250px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
 }
