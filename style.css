@@ -52,15 +52,11 @@ button {
 #yes-btn {
     background-color: rgb(0, 106, 255);
     color: white;
-    width: 100%;
-    padding: 12px;
 }
 
 #no-btn {
     background-color: rgb(239, 17, 17);
     color: white;
-    width: 100%;
-    padding: 12px;
 }
 
 #message {
