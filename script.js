@@ -24,9 +24,8 @@ const noTexts = [
 ];
 
 noBtn.addEventListener("click", function () {
-  setTimeout(() => {
     audio.play();
-  }, 1000);
+ 
   if (clickCount < noTexts.length) {
     yesBtn.style.transform = `scale(${1 + clickCount * 1})`;
     noBtn.innerText = noTexts[clickCount];
