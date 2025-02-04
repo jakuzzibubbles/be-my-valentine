@@ -34,7 +34,7 @@ noBtn.addEventListener("click", function () {
     clickCount++;
   } else {
     yesBtn.style.transform = "scale(5)";
-    question.innerText = "OK, YAY!";
+    question.innerText = "Now say yes already!";
     noBtn.style.display = "none";
   }
   gifImage.src =
