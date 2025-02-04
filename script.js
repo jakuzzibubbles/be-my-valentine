@@ -4,6 +4,7 @@ const message = document.getElementById("message");
 const question = document.querySelector("h1");
 const buttonsContainer = document.querySelector(".buttons");
 const gifImage = document.querySelector(".kitty");
+const audio = new Audio("Forever.mp3");
 
 let clickCount = 0;
 const noTexts = [
@@ -23,6 +24,9 @@ const noTexts = [
 ];
 
 noBtn.addEventListener("click", function () {
+  setTimeout(() => {
+    audio.play();
+  }, 1000);
   if (clickCount < noTexts.length) {
     yesBtn.style.transform = `scale(${1 + clickCount * 1})`;
     noBtn.innerText = noTexts[clickCount];
@@ -39,6 +43,9 @@ noBtn.addEventListener("click", function () {
 });
 
 yesBtn.addEventListener("click", function () {
+  audio.pause();
+  audio.currentTime = 0;
+  
     gifImage.src =
       "https://media.giphy.com/media/qFmdpUKAFZ6rMobzzu/giphy.gif?cid=ecf05e47mg5e73jkxu6ob2painy03ul3klhpub469af3gv41&ep=v1_gifs_search&rid=giphy.gif&ct=g";
       question.innerText = "Yay! Can't wait!";
