@@ -23,7 +23,7 @@ const noTexts = [
   "No",
 ];
 
-noBtn.addEventListener("click", function () {
+function handleNo() {
     audio.play();
  
   if (clickCount < noTexts.length) {
@@ -39,9 +39,9 @@ noBtn.addEventListener("click", function () {
   }
   gifImage.src =
     "https://media.giphy.com/media/hwvL2uKsTd1cNpZd9c/giphy.gif?cid=ecf05e47aizeleq89rc7x3w0j1jke78elww3wg7mvhgq0xlu&ep=v1_gifs_search&rid=giphy.gif&ct=g";
-});
+}
 
-yesBtn.addEventListener("click", function () {
+function handleYes() {
   audio.pause();
   audio.currentTime = 0;
 
@@ -53,4 +53,7 @@ yesBtn.addEventListener("click", function () {
 
       noBtn.style.display ="none";
       yesBtn.style.display = "none";
-});
+}
+
+noBtn.addEventListener("click", handleNo);
+yesBtn.addEventListener("click", handleYes);
