@@ -52,10 +52,12 @@ button {
 
 #yes-btn {
     background-color: rgb(0, 106, 255);
+    color: white;
 }
 
 #no-btn {
     background-color: rgb(239, 17, 17);
+    color: white;
 }
 
 #message {
