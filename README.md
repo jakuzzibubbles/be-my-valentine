@@ -5,5 +5,5 @@
 - How to **position elements properly** using CSS when interacting with them.  
 - How to **switch images dynamically** when clicking buttons.
 
-## Try the demo here and it's okay to say NO:
-- jakuzzibubbles.github.io/be-my-valentine/
+## Demo:
+- https://jakuzzibubbles.github.io/be-my-valentine/
